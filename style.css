@@ -1,0 +1,51 @@
+html, body {
+  height: 100%;
+}
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+aside{
+  width: 200px;
+  background-color: #395996;
+  height: 100%;
+  position: fixed;
+}
+aside h1{
+  color: #fff;
+  margin: 20px;
+  text-align: center;
+}
+aside .chat{
+	width: 160px;
+  height: 300px;
+  background-color: #fff;
+  margin: 50% auto;
+}
+aside .chat ul{
+  list-style-type: none;
+  padding: 10px;
+}
+aside .chat ul li{
+	padding: 5px;
+}
+aside .chat ul li::after{
+	content: '•';
+  color: #00E042;
+  float: right;
+}
+.container{
+ display: inline-flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  margin-left: 200px;
+}
+.libro{
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 400px;
+  height: 350px;
+  flex: none;
+}
